@@ -4,6 +4,10 @@ __pycache__/
 *$py.class
 *.idea
 *.pyc
+env/
+conf/local.cfg
+conf/development.cfg
+conf/prod.cfg
 
 # C extensions
 *.so
