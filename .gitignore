@@ -8,6 +8,7 @@ env/
 conf/local.cfg
 conf/development.cfg
 conf/prod.cfg
+test.py
 
 # C extensions
 *.so

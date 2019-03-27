@@ -9,10 +9,8 @@ if os.environ.get('PYTHON_ENV'):
 else:
     cfgList.append(Config(file('conf/default.cfg')))
 
-# print cfgList.getByPath('yo.keys.env')
-
 # Plaid Keys
-PLAID_KEY_CLIENT_ID = cfgList.getByPath('plaid.key.env')
+PLAID_KEY_CLIENT_ID = cfgList.getByPath('plaid.key.client_id')
 PLAID_KEY_ENV = cfgList.getByPath('plaid.key.env')
 PLAID_KEY_SECRET = cfgList.getByPath('plaid.key.secret')
 PLAID_KEY_PUBLIC_KEY = cfgList.getByPath('plaid.key.public_key')
